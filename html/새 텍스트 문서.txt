@@ -1,0 +1,4 @@
+html
+문서중 index.html는 이름 고정 다른 이름이면 인식을 못함
+a=
+targex_blank 새탭에서 열기
