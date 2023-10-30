@@ -1,0 +1,63 @@
+html:내용
+div
+header mav?
+main
+footer
+div
+
+div=나누다? division
+박스 안에있는 박스는 부모자식 관계 형성-상위-하위폴더 개념?
+
+id,class를 부여한 개체?는 전체에 내린 명령보다 더 상위에 위치하기에 전체에 내린 명령을 무시한다
+
+css:내용의 배치.
+p:문장
+selector:선택자
+margin 0 auto=높이 0 양 옆 자동 0 auto=상하 0 좌우 auto 박스 2개에 
+margin값이 겹칠시 예)위 박스 10 아래박스 11=11 높은값을 적용 합연산으로21이 아님.
+
+padding 박스의 안으로 굵어지는 볼더
+margin 박스의 밖으로 굵어지는 볼더(마지막박스에는 마진이 안먹음)
+
+display(어떻게)
+none=없앤다☆☆☆☆☆
+block=박스(나오게한다)
+inline=박스가 아님
+inline block= 위 2개 짬뽕?
+flex=(자식만)을 가로 배치한다
+flex direction자식을 세로 배치한다
+
+position(어디에)
+.static(position x)
+.absolute(절대적인)(부모자식관계에서 예외?)
+.relative(기준이 된다)(absolute를 수식에 잡아두기 위해 사용)
+.fixed(화면을 기준으로 한 absolute)(absolute보다 상위)(화면을 기준으로 하기에 스크롤 바 사용 불가) 예)따라오는 화면
+sticky(일정이상 움직이면 멈추는?)
+z-index=숫자를 높게 잡을수록 대상이 위로 올라감
+abosolute로 구겨진걸 편다-
+white space-no wrap 여백 방지
+
+in-line은 (박스가 아니기 때문에)margin외 다른 것은 적용 불가
+/* id 선택자 
+: tag 선택자 보다 우선한다.
+: 한 html 문서에서 id 선택자는 중복사용 할 수 없다
+: 명확한 선택을 할 수 있다. 
+*/
+
+
+
+/* class 선택자
+: tag 선택자 보다 우선한다.
+: 한 html 문서에서 중복사용 할 수 있다.
+ */
+
+/*!important(최우선) id(100) > class(10) > tag(1) */
+단,대상을 지정해서 명령할경우 이 점수는 무시된다.
+
+background가 들어갈시 높이 설정이 필요함
+
+
+javascript:동적인것과 관련,반응형? 예)스크롤,클릭
+
+js-홈페이지 slick,j query
+
